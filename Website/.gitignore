@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+.env
+*.log
+*.env.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# React
+build/
+dist/
+node_modules/
+*.env
+.DS_Store
+
+# Miscellaneous
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.local
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+Thumbs.db
+.DS_Store

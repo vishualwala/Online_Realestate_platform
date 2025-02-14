@@ -1,0 +1,33 @@
+
+.btn {
+    background-color:  #0e1117 ;
+    border: 1.5px solid purple ;
+    border-radius: 10px !important;
+    box-sizing: border-box ;
+    color: #FFFFFF !important;
+  }
+  
+  
+  /* Focus state */
+  .btn:focus-visible {
+    box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+    transition: box-shadow .2s;
+  }
+  
+  /* Active state */
+  .btn:active {
+    background-color: #F7F7F7;
+    border-color: green;
+    /* Ensure this is the color you want */
+    transform: scale(.96);
+  }
+  
+  /* Disabled state */
+  .btn:disabled {
+    border-color: #DDDDDD;
+    color: #DDDDDD;
+    cursor: not-allowed;
+    opacity: 1;
+  }
+  
+  

@@ -1,0 +1,14 @@
+/* In your CSS file */
+/* .nearby-place-card {
+    border: 2px solid purple !important;
+    margin: 0 15px !important;
+  } */
+
+  .slick-slide .nearby-place-card {
+    border: 1px solid purple;
+    margin: 0 15px !important;
+    
+  }
+  
+
+  /* marginBottom: '8px', marginLeft: '15px', marginRight: '15px', flex: '0 0 auto', border: '2px solid purple'  */

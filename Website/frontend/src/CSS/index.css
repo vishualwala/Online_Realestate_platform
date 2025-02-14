@@ -1,0 +1,117 @@
+body {
+  margin: 0 !important;
+  font-family: 'poppins' ;
+  background-color: #0e1117 !important;
+  
+}
+
+
+
+
+.btn {
+  background-color:  #0e1117 !important;
+  border: 1.5px solid purple !important;
+  border-radius: 10px !important;
+  box-sizing: border-box ;
+  color: #FFFFFF !important;
+}
+
+
+/* Focus state */
+.btn:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+/* Active state */
+.btn:active {
+  background-color: #F7F7F7;
+  border-color: green;
+  /* Ensure this is the color you want */
+  transform: scale(.96);
+}
+
+/* Disabled state */
+.btn:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+
+
+
+/* For React Bootstrap Card */
+.card {
+  background-color: #0e1117 !important;
+  /* border: 1px solid #ffd001 !important; */
+  /* border-radius: 10px !important; */
+  /* color: #ffffff !important; */
+}
+
+/* For Card title and text */
+.card-title {
+  color: #ffffff !important;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  color: #cccccc !important;
+  font-size: 1rem;
+}
+
+
+
+
+/* For Table */
+.table {
+  background-color: #0e1117 !important; 
+  color: #ffffff; 
+  border: 1px solid #222222 !important; 
+}
+
+.table th,tr, .table td {
+  border-color: #444444 !important; 
+}
+
+
+.table tbody td {
+  background-color: #0e1117;
+}
+
+
+
+
+/* Table hover state */
+.table-hover tbody tr:hover {
+  background-color: #222222 !important; 
+}
+
+/* Table striped rows */
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #1a1a1a !important; 
+}
+
+
+/* Custom styles for input field */
+input {
+  background-color: #222222 !important; 
+  color: #ffffff !important;
+  border: .1px solid #4d0f76 !important; 
+  padding: 10px;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  color: #cccccc; 
+}
+
+/* Input field focus state */
+input:focus {
+  outline: none;
+  border-color: #fcb045 !important;
+  box-shadow: 0 0 5px rgba(252, 176, 69, 0.5);
+}
